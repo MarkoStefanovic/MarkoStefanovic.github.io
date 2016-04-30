@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$(window).load(function(){$(".flexslider").flexslider({animation:"slide",directionNav:!1})}),$(window).on("scroll",function(){var e=$(window).scrollTop();e>=50?$("#header").addClass("fixed"):$("#header").removeClass("fixed")}),$("body").scrollspy({target:"#navbar"})});
+"use strict";$(document).ready(function(){$("video").mediaelementplayer()});
