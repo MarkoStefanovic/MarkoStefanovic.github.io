@@ -1,0 +1,9 @@
+[
+	"index.html",
+	"index.js",
+	"styles/main.scss",
+	"scripts/vendor.js",
+  "scripts/plugins.js",
+  "scripts/vendor/modernizr.js",
+  "scripts/main.js"
+]
