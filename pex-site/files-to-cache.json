@@ -1,6 +1,6 @@
 [
 	"index.html",
-	"styles/main.scss",
+	"styles/main.css",
 	"scripts/vendor.js",
   "scripts/plugins.js",
   "scripts/vendor/modernizr.js",
