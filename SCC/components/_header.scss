@@ -1,0 +1,34 @@
+// Header
+
+.navbar{
+  border-radius: 0;
+  border: none;
+
+  &.navbar-inverse{
+    margin-bottom: 0;
+  }
+
+
+  //logo
+  .navbar-brand{
+    font-family: $yellowtail;
+    font-size: 42px;
+    color: $buttercup;
+    padding-top: 10px;
+  }
+
+
+  .navbar-nav > li > a{
+    font-family: $oswald;
+    font-size: 0.938rem;
+    color: $white;
+    &:focus, &:hover{
+      color: $buttercup;
+    }
+  }
+
+
+
+
+
+}

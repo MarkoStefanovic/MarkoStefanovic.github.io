@@ -1,0 +1,48 @@
+// Skill well
+
+// Mixins
+
+
+
+
+.well{
+  background:$mine-shaft;
+  color: $mine-shaft;
+  border: none;
+  height: 44px;
+  padding: 0;
+  
+
+  // yellow bar
+  .bar{
+    background: $buttercup;
+    height: 100%;
+    border-radius: 3px;
+    padding: 12px;
+
+
+    &#html{
+      width:90%;
+    }
+
+    &#css{
+      width:85%;
+    }
+    &#js{
+      width:70%;
+    }
+    &#rwd{
+      width:83%;
+    }
+    &#ps{
+      width:78%;
+    }
+    &#php{
+      width:73%;
+    }
+    &#sql{
+      width:60%;
+    }
+  }
+
+}

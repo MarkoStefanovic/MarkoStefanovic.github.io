@@ -1,0 +1,20 @@
+// body element
+html,body{
+  position: relative;
+  /*to enable scroll-spy*/
+  overflow-x: hidden;
+  background: $mine-shaft;
+
+  font-size: 15px;
+
+  @include media(">=medium") {
+    font-size: 16px;
+  }
+}
+*{
+//  border: pink 1px solid;
+}
+
+main{
+  background: url('/images/bgd-tex.png')top left repeat, rgb(42,42,42) ;
+}

@@ -1,0 +1,57 @@
+// typography
+
+
+h1{
+  font-family:$oswald;
+  font-size: 3.063rem;
+  font-weight: 400;
+  color: $buttercup;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family:$oswald;
+  font-size: 2.188rem;
+  font-weight: 400;
+  color: $white;
+  text-transform: uppercase;
+  margin-top: 0.571em;
+  margin-bottom: 0.857em;
+  background: $mine-shaft;
+}
+
+h3{
+  font-family: $oswald;
+  font-size: 1.313rem;
+  font-weight: 400;
+  line-height: 1.333em;
+  color: $white;
+  text-transform: uppercase;
+  margin:1.250em 0;
+  background: $mine-shaft;
+}
+
+h4{
+  font-family: $oswald;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 1.333em;
+  color: $white;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: $opensans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.500em;
+  color: $white;
+}
+
+h1+h2{
+  background: none;
+}
+
+a:hover,a:focus{
+  text-decoration: none;
+}

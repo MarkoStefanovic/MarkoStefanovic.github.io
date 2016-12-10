@@ -1,0 +1,21 @@
+//modals
+.modal-content{
+  background: $mine-light;
+
+  .modal-header{
+    border-color: $mine-bright;
+
+    button.close{
+      color: $gray;
+    }
+  }
+  .modal-body{
+    color: $gray;
+    p,ol{
+      padding-top: 10px;
+    }
+  }
+  .modal-footer{
+  border-color: $mine-bright;
+  }
+}

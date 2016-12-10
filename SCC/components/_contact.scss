@@ -1,0 +1,33 @@
+// contact
+.contact{
+  padding-top: 20px;
+  padding-bottom:20px;
+
+}
+form {
+  font-family: $opensans;
+  color: $gray;
+  
+  .form-control {
+    color: $gray;
+    background: $mine-shaft;
+    border-radius: 0;
+    border: none;
+  }
+  textarea {
+    width: 100%;
+    height: 170px;
+    background: $mine-shaft;
+    border-radius: 0;
+    border: none;
+    color: $gray;
+  }
+  .fa {
+    color: $gray;
+  }
+  .input {
+    background: $mine-shaft;
+    border-radius: 0;
+    border: none;
+  }
+}

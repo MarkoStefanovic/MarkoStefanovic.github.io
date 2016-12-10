@@ -1,0 +1,24 @@
+// buttons
+
+.btn.btn-default{
+  font-family: $opensans;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: $mine-shaft;
+  border-radius: 0;
+  height: 3.000em;
+  width: 9.143em;
+  border: none;
+  padding: 0.857em;
+  &.yellow{
+    background: $buttercup;
+    &:hover{
+      color: $mine-shaft;
+      background: darken($buttercup, 12%);
+    }
+    &:active{
+      color: $mine-shaft;
+      background: darken($buttercup, 20%);
+    }
+  }
+}
